@@ -9,11 +9,6 @@ mongoose
   process.env.MONGO_URL ||
   'mongodb://localhost/enrollment');
 
-//For this demo, these routes just provide
-//a place to visualize each collection on get requests.
-//Each individual student displays the array
-//of corresponding enrolled courses id#'s
-//and vice-versa for courses.
 require('./routes/student_routes')(app);
 require('./routes/course_routes')(app);
 
