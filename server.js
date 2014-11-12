@@ -17,7 +17,6 @@ require('./routes/student_routes')(app);
 require('./routes/course_routes')(app);
 
 //Add pre-set students and courses,
-//console log 'student name | course title' relationships
 var enrollDemo = require('./lib/enrollDemo');
 enrollDemo();
 
