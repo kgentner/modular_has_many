@@ -11,8 +11,9 @@ mongoose
 
 //For this demo, these routes just provide
 //a place to visualize each collection on get requests.
-//(e.g. Each individual student displays the array
-//of corresponding enrolled courses id#'s)
+//Each individual student displays the array
+//of corresponding enrolled courses id#'s
+//and vice-versa for courses.
 require('./routes/student_routes')(app);
 require('./routes/course_routes')(app);
 
