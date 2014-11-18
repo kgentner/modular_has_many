@@ -12,10 +12,6 @@ mongoose
 require('./routes/student_routes')(app);
 require('./routes/course_routes')(app);
 
-//Add pre-set students and courses,
-var enrollDemo = require('./lib/enrollDemo');
-enrollDemo();
-
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'), function() {
   console.log('server running on port: %d', app.get('port'));

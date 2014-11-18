@@ -1,10 +1,10 @@
-'use strict';
+  'use strict';
 process.env.MONGO_URL = 'mongodb://localhost/school_test';
 var chai = require('chai');
 var chaihttp = require('chai-http');
 chai.use(chaihttp);
 
-require('../../server');
+require('../../lib/enrollDemo');
 
 var expect = chai.expect;
 
