@@ -1,7 +1,7 @@
 # modular_has_many
+<img src='https://travis-ci.org/kgentner/modular_has_many.svg?branch=master'></img>
 
 A Many-To-Many relationship between Students & Courses
-<img src='https://travis-ci.org/kgentner/modular_has_many.svg?branch=master'></img>
 
 For this assignment, the students (John & Hilda) and courses (Math & English) are pre-populated, and the routes provide a place to visualize the student and course collections on get requests.
 
